@@ -1,0 +1,40 @@
+[
+  {
+    "displayName": "닉네임 1",
+    "profileURL": "트윗",
+    "uid": "userid1",
+    "duration": "3",
+    "twit": "트윗ㅁㄴㅇㅁㄴㅇㅁㄴㅇ"
+  },
+  {
+    "displayName": "닉네임 2",
+    "profileURL": "트윗",
+    "uid": "userid2",
+    "duration": "4",
+    "twit": "트윗ㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂ",
+    "imageList": ["a", "b"]
+  },
+  {
+    "displayName": "닉네임 1",
+    "profileURL": "트윗",
+    "uid": "userid1",
+    "duration": "3",
+    "twit": "트윗",
+    "imageList": ["a"]
+  },
+  {
+    "displayName": "닉네임 1",
+    "profileURL": "트윗",
+    "uid": "userid1",
+    "duration": "3",
+    "twit": "트윗"
+  },
+  {
+    "displayName": "닉네임 2",
+    "profileURL": "트윗",
+    "uid": "userid2",
+    "duration": "4",
+    "twit": "트윗",
+    "imageList": ["a", "b", "c"]
+  }
+]
