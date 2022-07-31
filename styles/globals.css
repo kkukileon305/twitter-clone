@@ -11,3 +11,7 @@
     @apply flex justify-center items-center;
   }
 }
+
+#__next {
+  display: flex;
+}

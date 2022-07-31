@@ -11,7 +11,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
       <Menu />
       <Header />
       <PcMenu />
-      <div className='w-full max-w-[600px] bm:w-[80%] bm:ml-[20%] lm:ml-[10%] xl:ml-[26%]'>{children}</div>
+      <div className='w-full max-w-[600px] bm:w-[80%] bm:ml-[20%] lm:ml-[10%] xl:ml-[26%] 2xl:ml-[30%]'>{children}</div>
       <SearchAside />
       <Footer />
     </>

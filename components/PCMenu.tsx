@@ -16,7 +16,7 @@ const PcMenu = () => {
   }, [pathname]);
 
   return (
-    <div className='hidden bm:flex flex-col items-end h-full fixed left-0 top-0 w-[20%] lm:w-[10%] xl:w-[26%] border-r-[1px]'>
+    <div className='hidden bm:flex flex-col items-end h-full fixed left-0 top-0 w-[20%] lm:w-[10%] xl:w-[26%] 2xl:w-[30%] border-r-[1px]'>
       <ul className='flex flex-col px-3 py-2 gap-5 items-center'>
         <li className='mb-1'>
           <div className='flex items-center justify-start gap-3'>

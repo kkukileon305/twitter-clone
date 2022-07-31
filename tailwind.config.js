@@ -13,6 +13,7 @@ module.exports = {
       lm: '988px',
       lg: '1078px',
       xl: '1266px',
+      '2xl': '1700px',
       tall: {
         raw: '(min-height: 615px)',
       },

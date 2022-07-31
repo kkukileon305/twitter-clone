@@ -11,14 +11,14 @@ const SearchAside = () => {
   }, [pathname]);
 
   return (
-    <aside className='hidden lm:block fixed left-[calc(10%+600px)] lg:left-[calc(10%+600px)] xl:left-[calc(26%+600px)] top-0 w-[308.96px] lg:w-[370.2px] h-full white border-r-[1px]'>
-      <div className={`py-1 border-b-[1px] px-5 bg-transparent ${path !== '/explore' ? '' : 'hidden'}`}>
-        <div className='w-full h-[44px] pl-4 flex bg-slate-200 rounded-full items-center gap-4 overflow-hidden'>
+    <aside className={`hidden lm:block sticky ${path !== '/explore' ? 'bottom-0' : 'top-0'} left-[calc(10%+600px)] lg:left-[calc(10%+600px)] xl:left-[calc(26%+600px)] 2xl:left-[calc(30%+600px)] w-[308.96px] lg:w-[370.2px] h-full white`}>
+      <div className={`py-1 fixed border-b-[1px] px-5 bg-white/70 backdrop-blur-sm z-10 ${path !== '/explore' ? '' : 'hidden'}`}>
+        <div className='w-[268.96px] lg:w-[330.2px] h-[44px] pl-4 flex bg-slate-200/70 rounded-full items-center gap-4'>
           <BsSearch />
           <input className='w-full h-full bg-transparent focus:outline-none' type='text' placeholder='클론 트위터 검색' />
         </div>
       </div>
-      <div className={`${path !== '/explore' ? 'h-[calc(100%-53px)]' : 'h-full'} px-5 py-3 overflow-y-scroll`}>
+      <div className={`${path !== '/explore' ? 'h-[calc(100%-53px)] mt-[53px]' : 'h-full'} px-5 py-3 `}>
         <div className={`bg-slate-200 rounded-2xl px-5 py-3 ${path !== '/explore' ? '' : 'hidden'}`}>
           <h2 className='font-bold text-xl'>나를 위한 트렌드</h2>
           <ul className='mt-6'>
